@@ -220,3 +220,18 @@ footer {
     border-top: 1px solid var(--border-color);
     margin-top: 50px;
 }
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .section {
+        margin: 12px;
+        padding: 15px;
+    }
